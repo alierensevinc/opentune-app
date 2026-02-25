@@ -1,41 +1,41 @@
-# 🎸 OpenTune: Guitar Tuner
+# App Landing Page Template
 
-> **No nonsense. No clutter. Just tuning.**
-> The fastest and most accurate way to get your guitar pitch-perfect in seconds.
+This project is a template for creating a fast, stylish landing page for your mobile applications. It is built using modern design principles and styled with Tailwind CSS.
 
-## 📱 Screenshots
+## 🚀 Features
 
-<p align="center">
-  <img src="./ss1.jpeg" alt="Tuner Interface 1" width="30%">
-  <img src="./ss2.jpeg" alt="Tuner Interface 2" width="30%">
-  <img src="./ss3.jpeg" alt="Tuner Interface 3" width="30%">
-</p>
+- **Responsive Design:** Fully compatible with mobile, tablet, and desktop devices.
+- **Fast & Lightweight:** Loads in seconds using Tailwind CSS via CDN.
+- **Ready-to-Use Pages:** Includes Home, Privacy Policy (`privacy-policy.html`), and Terms & Conditions (`terms-and-conditions.html`).
+- **Easy Customization:** Simply replace placeholders like `[APP_NAME]` and `[HERO_TITLE]` to get started immediately.
 
-## 🎯 The Vision
+## 🛠️ Setup & Customization
 
-OpenTune was built for the musician who values time. Most tuning apps are bloated with unnecessary features, complex menus, and intrusive ads. OpenTune solves this with a "Open-and-Tune" philosophy.
+Follow these steps to use the template:
 
-Our goal is to provide professional-grade accuracy within a minimalist interface.
+1. **Download the Files:** Clone this repository or download it as a zip file.
+2. **Update Information:**
+   Open `index.html`, `privacy-policy.html`, and `terms-and-conditions.html` in a text editor (e.g., VS Code).
+   Replace the bracketed placeholders (`[PLACEHOLDER]`) with your app's specific information.
+   
+   *See `template_placeholders.md` for a full list of placeholders to update.*
 
-## ✨ Key Features
+3. **Add Images:**
+   Add your app icon and screenshots to the project folder and update the `src="..."` attributes in the HTML files.
 
-- **Instant Pitch Detection**: No setup required. Open the app, pluck a string, and get instant feedback.
-- **High Precision Engine**: Powered by advanced DSP (Digital Signal Processing) for pinpoint accuracy.
-- **Chromatic Mode**: Supports all notes, making it perfect for custom tunings.
-- **Multi-Instrument Support**: Optimized for Acoustic Guitar, Electric Guitar, Bass, and Ukulele.
-- **Visual Guidance**: Clean, high-contrast UI (Dark Mode) designed for stage and studio use.
-- **Zero Clutter**: No intrusive ads or complex menus during the tuning process.
+## 🌐 Deploying with GitHub Pages
 
-## ⚖️ Legal
+You can host this project for free using GitHub Pages. Regarding your question:
 
-By using OpenTune, you agree to our Terms and Conditions and Privacy Policy.
+> **Note:** GitHub Pages automatically serves **`index.html`** as the main entry point for your site. The `README.md` file is used only for displaying project information on the GitHub repository page and will not interfere with your live website. Your site will launch correctly using `index.html`.
 
-- [Terms & Conditions](./terms-and-conditions.html)
-- [Privacy Policy](./privacy-policy.html)
+**Deployment Steps:**
 
-## 📞 Support & Contact
-Need help with tuning or have feedback for OpenTune?
+1. Push your project to GitHub.
+2. Go to the **Settings** tab of your repository.
+3. Select **Pages** from the left sidebar.
+4. Under **Build and deployment**, ensure **Source** is set to `Deploy from a branch`.
+5. For **Branch**, select `main` (or `master`) and keep the folder as `/ (root)`.
+6. Click **Save**.
 
-For any questions, support requests, or bug reports, please contact us directly via email. We aim to respond to all inquiries within 24 hours.
-
-📧 Email: sevinc.aeren@gmail.com
+In a few minutes, GitHub will provide you with the live URL for your site (e.g., `https://username.github.io/project-name/`).
