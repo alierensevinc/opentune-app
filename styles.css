@@ -1,33 +1,41 @@
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
-    color: #1d1d1f;
+:root {
+    --brand-navy: #18204a;
+    --brand-navy-light: #232d5e;
+    --brand-green: #00c853;
+    --surface-bg: #f5f5fa;
 }
 
-.apple-blur {
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #ffffff;
+    color: var(--brand-navy);
+    overflow-x: hidden;
+}
+
+.glass-nav {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.82);
 }
 
-.gradient-text {
-    background: linear-gradient(180deg, #1d1d1f 0%, #434344 100%);
+.hero-glow {
+    background:
+        radial-gradient(circle at 50% 0%, rgba(24, 32, 74, 0.08) 0%, transparent 65%),
+        radial-gradient(circle at 80% 20%, rgba(0, 200, 83, 0.07) 0%, transparent 45%);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #0f1535 0%, #18204a 55%, #34448b 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.iphone-mockup {
-    border: 8px solid #1d1d1f;
-    border-radius: 3rem;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+.bento-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-}
-
-.no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+.bento-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -15px rgba(24, 32, 74, 0.1);
 }

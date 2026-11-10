@@ -1,41 +1,35 @@
-# App Landing Page Template
+# 🎸 OpenTune — Fast, Accurate & Simple Guitar Tuner
 
-This project is a template for creating a fast, stylish landing page for your mobile applications. It is built using modern design principles and styled with Tailwind CSS.
+![OpenTune Banner](assets/header_og.jpeg)
 
-## 🚀 Features
+> **No clutter. Just tuning.**  
+> Studio-grade pitch detection for Guitar, Bass, Ukulele, Violin, and Mandolin.
 
-- **Responsive Design:** Fully compatible with mobile, tablet, and desktop devices.
-- **Fast & Lightweight:** Loads in seconds using Tailwind CSS via CDN.
-- **Ready-to-Use Pages:** Includes Home, Privacy Policy (`privacy-policy.html`), and Terms & Conditions (`terms-and-conditions.html`).
-- **Easy Customization:** Simply replace placeholders like `[APP_NAME]` and `[HERO_TITLE]` to get started immediately.
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/opentune-guitar-tuner/id6757105393)
 
-## 🛠️ Setup & Customization
+## ✨ Key Features
 
-Follow these steps to use the template:
+- **Real-Time DSP Pitch Engine**: Instant frequency (Hz) and cent deviation readout calibrated from low `B0` bass strings up to `E5` violin strings.
+- **17+ Built-In Tunings Across 4 Instrument Families**:
+  - **Guitar (6-String)**: Standard, Drop D, DADGAD, Half-Step Down, Full-Step Down (D), Drop C, Open G, Open D, Open E
+  - **Bass (4 & 5-String)**: 4-String Standard, Drop D, Drop C, 5-String Standard
+  - **Ukulele**: Standard (High G), Low G, D Tuning
+  - **Violin & Mandolin**: Standard Fifths (`G3 D4 A4 E5`)
+- **Auto & Manual String Lock**: Automatic target recognition or single-tap manual string locking.
+- **Stage-Ready Themes**: High-contrast Dark Mode and clean Light Mode with automatic screen wake-lock while tuning.
 
-1. **Download the Files:** Clone this repository or download it as a zip file.
-2. **Update Information:**
-   Open `index.html`, `privacy-policy.html`, and `terms-and-conditions.html` in a text editor (e.g., VS Code).
-   Replace the bracketed placeholders (`[PLACEHOLDER]`) with your app's specific information.
-   
-   *See `template_placeholders.md` for a full list of placeholders to update.*
+## 📱 Screenshots
 
-3. **Add Images:**
-   Add your app icon and screenshots to the project folder and update the `src="..."` attributes in the HTML files.
+<p align="center">
+  <img src="assets/1.png" alt="OpenTune Screen 1" width="23%">
+  <img src="assets/2.png" alt="OpenTune Screen 2" width="23%">
+  <img src="assets/3.png" alt="OpenTune Screen 3" width="23%">
+  <img src="assets/4.png" alt="OpenTune Screen 4" width="23%">
+</p>
 
-## 🌐 Deploying with GitHub Pages
+## ⚖️ Legal & Support
 
-You can host this project for free using GitHub Pages. Regarding your question:
-
-> **Note:** GitHub Pages automatically serves **`index.html`** as the main entry point for your site. The `README.md` file is used only for displaying project information on the GitHub repository page and will not interfere with your live website. Your site will launch correctly using `index.html`.
-
-**Deployment Steps:**
-
-1. Push your project to GitHub.
-2. Go to the **Settings** tab of your repository.
-3. Select **Pages** from the left sidebar.
-4. Under **Build and deployment**, ensure **Source** is set to `Deploy from a branch`.
-5. For **Branch**, select `main` (or `master`) and keep the folder as `/ (root)`.
-6. Click **Save**.
-
-In a few minutes, GitHub will provide you with the live URL for your site (e.g., `https://username.github.io/project-name/`).
+- [Landing Page](index.html)
+- [Privacy Policy](privacy-policy.html)
+- [Terms & Conditions](terms-and-conditions.html)
+- **Contact**: [sevinc.aeren@gmail.com](mailto:sevinc.aeren@gmail.com)
